@@ -1,0 +1,64 @@
+p{
+    background-image: linear-gradient(violet,purple);
+    text-align: justify;
+    font-size: 14pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    text-shadow: 2px 2px 5px magenta;
+}
+
+hr{
+    border: 3px purple double;
+}
+
+fieldset, legend{
+    border: 5px outset purple;
+    padding: 5px 10px;
+    border-radius: 35px;
+}
+
+legend{
+    background: whitesmoke;
+}
+
+fieldset{
+    background-image: linear-gradient(pink,plum);
+}
+
+/*id*/
+#satu{
+    color:whitesmoke;
+}
+#dua{
+    color:whitesmoke;
+}
+
+/*class*/
+.satu{
+    color:whitesmoke;
+}
+
+/*css NAVIGATION*/
+a:visited, a:link{
+    text-decoration: none;
+    border: 1px solid pink;
+    background-color: azure;
+    padding: 2px 5px;
+    border-radius: 25px;
+    color: palevioletred;
+}
+
+a:hover{
+    text-decoration: none;
+    border: 1px solid yellowgreen;
+    background-color: palevioletred;
+    padding: 2px 5px;
+    border-radius: 25px;
+    color: azure;
+}
